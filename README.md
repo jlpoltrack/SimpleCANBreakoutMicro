@@ -2,6 +2,8 @@
 
 A tiny (20 × 15 mm) CAN transceiver breakout. It converts a microcontroller's logic-level CAN TX/RX to a CAN bus on a JST-GH connector, with an onboard 3.3 V regulator and optional 120 Ω termination.
 
+<img src="Render.png" alt="Board render, top side" width="500">
+
 Designed in KiCad 10.
 
 ## Features
