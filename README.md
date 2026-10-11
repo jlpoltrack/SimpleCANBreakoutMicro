@@ -53,3 +53,7 @@ Bridge **JP1** (bottom side) to connect the 120 Ω resistor across CANH/CANL. Do
 
 - `SimpleCANBreakoutMicro.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad project
 - `production/` — fabrication outputs generated with the [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin: Gerbers and drill files (`SimpleCANBreakoutMicro.zip`), BOM, and pick-and-place positions, ready for JLCPCB
+
+## License
+
+[MIT](LICENSE)
