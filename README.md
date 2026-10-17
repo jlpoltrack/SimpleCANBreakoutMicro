@@ -2,9 +2,9 @@
 
 A tiny (20 × 15 mm) CAN transceiver breakout. It converts a microcontroller's logic-level CAN TX/RX to a CAN bus on a JST-GH connector, with an onboard 3.3 V regulator and optional 120 Ω termination.
 
-<img src="Render.png" alt="Board render, top side" width="500">
+<img src="Render-Front.png" alt="Board render, top side" width="400"> <img src="Render-Back.png" alt="Board render, bottom side" width="400">
 
-Designed in KiCad 10.
+Designed in KiCad 10. See [SimpleCANBreakout](https://github.com/jlpoltrack/SimpleCANBreakout) for a larger version with solder pads and an AMS1117 regulator.
 
 ## Features
 
@@ -54,6 +54,7 @@ Bridge **JP1** (bottom side) to connect the 120 Ω resistor across CANH/CANL. Do
 ## Files
 
 - `SimpleCANBreakoutMicro.kicad_sch` / `.kicad_pcb` / `.kicad_pro` — KiCad project
+- `SimpleCANBreakoutMicro.pdf` — schematic
 - `production/` — fabrication outputs generated with the [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin: Gerbers and drill files (`SimpleCANBreakoutMicro.zip`), BOM, and pick-and-place positions, ready for JLCPCB
 
 ## License
