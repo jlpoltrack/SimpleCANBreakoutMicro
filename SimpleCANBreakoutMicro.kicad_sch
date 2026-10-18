@@ -2048,16 +2048,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 35.56) (xy 91.44 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26831601-d774-4c6c-8c35-59a927213c4a")
-	)
-	(wire
-		(pts
 			(xy 132.08 88.9) (xy 132.08 91.44)
 		)
 		(stroke
@@ -3336,85 +3326,6 @@
 			(project "SimpleCANBreakoutMicro"
 				(path "/e14c1ff8-bf40-4aec-a72a-8c8e5fd374c7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 93.98 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d6d8abf-ce61-48bd-9c0f-af84d27d6642")
-		(property "Reference" "#FLG03"
-			(at 95.885 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 97.79 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a30cf8e4-4270-4ccd-93ae-06e58da66e71")
-		)
-		(instances
-			(project "SimpleCANBreakoutMicro"
-				(path "/e14c1ff8-bf40-4aec-a72a-8c8e5fd374c7"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
