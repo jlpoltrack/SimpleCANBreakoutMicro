@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "e14c1ff8-bf40-4aec-a72a-8c8e5fd374c7")
 	(paper "A4")
+	(title_block
+		(title "SimpleCANBreakoutMicro")
+		(date "2026-10-17")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
