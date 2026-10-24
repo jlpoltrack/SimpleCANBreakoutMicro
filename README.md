@@ -1,6 +1,6 @@
 # SimpleCANBreakoutMicro
 
-A tiny (20 × 15 mm) CAN transceiver breakout. It converts a microcontroller's logic-level CAN TX/RX to a CAN bus on a JST-GH connector, with an onboard 3.3 V regulator and optional 120 Ω termination.
+A tiny CAN transceiver breakout. It converts a microcontroller's logic-level CAN TX/RX to a CAN bus on a JST-GH connector, with an onboard 3.3 V regulator and optional 120 Ω termination.
 
 <img src="Render-Front.png" alt="Board render, top side" width="400"> <img src="Render-Back.png" alt="Board render, bottom side" width="400">
 
@@ -11,7 +11,7 @@ Designed in KiCad 10. See [SimpleCANBreakout](https://github.com/jlpoltrack/Simp
 - SN65HVD230 3.3 V CAN transceiver, wired for high-speed mode (up to 1 Mbps)
 - XC6206 3.3 V LDO, so the board runs from a single 5 V supply
 - 120 Ω termination resistor, enabled by a solder jumper (open by default)
-- 2-layer, 1.6 mm PCB, parts on the top side only
+- Parts on the top side only
 
 ## Connectors
 
